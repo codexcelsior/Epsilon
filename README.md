@@ -1,4 +1,4 @@
-This is Epsilon (Advanced method to compare two close number)
+This is Epsilon (Advanced method to compare two different number with close precision)
 
 Epislon - the most common method of doing floating point equality involves using a function that looks to see if two numbers are almost the same. 
 If they are “close enough”, then we call them equal. The value used to represent “close enough” is traditionally called epsilon number. 
