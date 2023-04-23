@@ -17,7 +17,7 @@ If we say any number that is within 0.00001 of another number should be treated 
 + CASE 1: Compare the gap of two with Epsilon Absolutue (Close to 0) - 12 characters before the collon
 + CASE 2: Compare using the Knuth's Algorithm (Compare the gap with relative epsilon * the higher number of 2) (Close to 1)
 
-Note: With the second case: Please make sure to wrap them in absolute function so any arithmetic means cannot turn these numbers from unsigned to signed
+Note: With the second case, please make sure to wrap them in absolute function so any arithmetic means cannot turn these numbers from unsigned to signed
 
 The approximatelyEqualAbsRel() function with an absEpsilon of 1e-12 and a relEpsilon of 1e-8 should be good enough to handle most cases you’ll encounter.
 
